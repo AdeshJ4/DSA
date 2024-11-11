@@ -1,7 +1,5 @@
 package com.codeWithAdesh;
 
-import java.util.Arrays;
-
 public class Array {
 
     private int[] items;
@@ -91,8 +89,6 @@ public class Array {
         // System.out.println(Arrays.toString(duplicate));
     }
 }
-
-
 
 /*
  * calling methods :
