@@ -3,15 +3,14 @@ package com.Stacks;
 public class Main {
     public static void main(String[] args){
 
-        StackArray stack = new StackArray();
+        StackLinkedList stack = new StackLinkedList();
 
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.pop();
+        stack.display();
+        System.out.println("last Element: " + stack.peek());
 
-        // stack.push(10);
-        // stack.push(20);
-        // stack.push(30);
-
-        System.out.println(stack.isEmpty());
-
-        System.out.println(stack.toString());
     }
 }
